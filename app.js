@@ -8,6 +8,11 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+document.getElementById('beatButt').addEventListener('click',(event) => {
+        health.value += 100
+}); 
+
+
 
 var lifeCycle = [
     ['bob is sleeping', 5],
