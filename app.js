@@ -8,8 +8,12 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+var oof = 0;
 document.getElementById('beatButt').addEventListener('click',(event) => {
-        health.value += 100
+    oof++;
+    health.value += 100;
+    console.log(oof);
+    document.getElementById('beats').innerHTML = "heart beat madee: " + oof;
 }); 
 
 
